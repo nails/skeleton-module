@@ -4,15 +4,6 @@
     "homepage": "{url}",
     "description": "{description}",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "{author.name}",
-            "email": "{author.email}"
-        }
-    ],
-    "support": {
-        "email": "{author.email}"
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
