@@ -24,5 +24,8 @@
             "namespace": "{namespace}",
             "data": {}
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
     }
 }
