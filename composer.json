@@ -1,0 +1,37 @@
+{
+    "name": "{vendor}/{name}",
+    "keywords": [],
+    "homepage": "{url}",
+    "description": "{description}",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "{author.name}",
+            "email": "{author.email}"
+        }
+    ],
+    "support": {
+        "email": "{author.email}"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "nails/common": "dev-develop"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "{namespace}": "src/"
+        }
+    },
+    "extra": {
+        "nails": {
+            "moduleName": "{name}",
+            "type": "module",
+            "namespace": "{namespace}",
+            "data": {}
+        }
+    }
+}
