@@ -17,6 +17,11 @@
             "{namespace}": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "{namespace}": "src/"
+        }
+    },
     "extra": {
         "nails": {
             "moduleName": "{name}",
