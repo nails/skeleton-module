@@ -11,7 +11,7 @@
         "nails/common": "dev-develop"
     },
     "require-dev": {
-        "phpunit/phpunit": "^12.0",
+        "phpunit/phpunit": "^12.0"
     },
     "autoload": {
         "psr-4": {
